@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.pagination {
+    display: inline-block;
+}
+  
+.pagination a {
+    font-weight:bold;
+    font-size:20px;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.GFG {
+    font-size:42px;
+    font-weight:bold;
+    color:#009900;
+    margin-left:100px;
+    margin-bottom:60px;
+}
+.peg {
+    font-size:24px;
+    font-weight:bold;
+    margin-left:140px;
+}
+</style>
+</head>
+<body>
+  
+<div class = "GFG">GeeksforGeeks</div>
+<div class = "peg">Simple Pagination</div>
+<div class="pagination">
+  <a href="#">«</a>
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">7</a>
+  <a href="#">8</a>
+  <a href="#">9</a>
+  <a href="#">10</a>
+  <a href="#">»</a>
+</div>
+  
+</body>
+</html>

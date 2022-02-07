@@ -1,0 +1,3 @@
+const myJSON = '{"name":"Shrishti", "age":21, "car":null}';
+const myObj = JSON.parse(myJSON);
+x = myObj.name;
