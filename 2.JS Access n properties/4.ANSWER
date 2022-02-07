@@ -1,0 +1,29 @@
+
+//getter
+const student = {
+
+    firstName: 'Shrishti',
+    
+    get getName() {
+        return this.firstName;
+    }
+};
+console.log(student.firstName); 
+console.log(student.getName); 
+console.log(student.getName());
+
+//setter
+const student = {
+    firstName: 'Shrishti',
+    
+    
+    set changeName(newName) {
+        this.firstName = newName;
+    }
+};
+
+console.log(student.firstName); 
+
+student.changeName = 'Sarah';
+
+console.log(student.firstName);
